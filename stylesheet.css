@@ -1,0 +1,55 @@
+h1 {
+    color: navy;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 80px;
+}
+  
+body {
+    background-color: lightblue;
+    height: 100%;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+ul {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    background-color: #558ef8;
+    padding: 10px 15px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    padding: 10px 15px;
+}
+
+P {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 100%;
+    text-align: center;
+    background-color: #ffff;
+
+}
+
+
+/* Phones */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+} 
+
+/* Tablets */
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+    h1 {
+        font-size: 50px;
+    }
+
+} 
